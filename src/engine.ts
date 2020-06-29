@@ -3,7 +3,7 @@ import * as snake from './snake.js';
 import { GAME_BOARD } from './values/board.js';
 import * as directions from './values/directions.js';
 import * as food from './food.js';
-
+import * as score from './values/score.js';
 
 export function startGame() {
     setInterval(gameLoop, 150);

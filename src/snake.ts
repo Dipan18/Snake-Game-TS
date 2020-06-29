@@ -1,7 +1,5 @@
 import { Position } from './values/position.js';
 import { GRID_SIZE } from './values/board.js';
-import * as directions from './values/directions.js';
-import { direction } from './input.js';
 
 let snake: Position[] = [{ x: 11, y: 11 }, { x: 12, y: 11 }, { x: 13, y: 11 }];
 
